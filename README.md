@@ -76,6 +76,8 @@
 
 ##### \- The S3 bucket policy grants public \*\*read-only\*\* access (`s3:GetObject`) scoped to this one bucket only — this is intentional for a public static site, and is separate from account-level access, which remains locked down
 
+##### \- Verified the secret-scanning gate actually blocks bad deploys: an initial test using AWS's publicly documented example key silently passed (it's allowlisted by scanners as a known placeholder). A second test with a realistic-but-fake key was correctly detected, failing the scan and blocking deployment.
+
 ##### 
 
 ##### \*\*Known tradeoff (deliberate, not overlooked):\*\*
