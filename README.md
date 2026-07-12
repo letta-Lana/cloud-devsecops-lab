@@ -60,7 +60,7 @@
 
 ##### 
 
-##### \*\*Live site:\*\* https://cloud-devsecops-lab-lana-2026.s3.eu-west-2.amazonaws.com/index.html
+##### \*\*Live site:\*\* http://cloud-devsecops-lab-lana-2026.s3-website.eu-west-2.amazonaws.com
 
 ##### 
 
