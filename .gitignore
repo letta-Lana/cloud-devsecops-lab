@@ -48,3 +48,4 @@ terraform.rc
 .env
 credentials
 aws-credentials*
+project-2-ec2/project2-key
